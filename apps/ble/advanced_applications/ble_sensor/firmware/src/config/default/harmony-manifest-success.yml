@@ -4,10 +4,10 @@
 
 
 project: ble_sensor
-creation_date: 2022-07-20T14:39:49.120+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2023-10-01T20:15:27.209-07:00[America/Los_Angeles]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 10
 mhc_mode: Standalone            # [IDE|Standalone|Headless]
-mhc_version: v3.8.5
+mhc_version: NA
 mplabx_version: NA        # if MPLAB X plugin only
 plugin_version: NA        # if MPLAB X plugin only
 compiler: xc32
@@ -15,9 +15,9 @@ compiler: xc32
 modules:
     - {name: "csp", version: "v3.13.0"}
     - {name: "core", version: "v3.11.0"}
-    - {name: "wireless_pic32cxbz_wbz", version: "v1.0.0"}
+    - {name: "wireless_pic32cxbz_wbz", version: "v1.1.0"}
     - {name: "wireless_ble", version: "v1.0.0"}
-    - {name: "wireless_system_pic32cxbz_wbz", version: "v1.0.0"}
+    - {name: "wireless_system_pic32cxbz_wbz", version: "v1.1.0"}
     - {name: "dev_packs", version: "v3.13.0"}
     - {name: "wolfssl", version: "v4.7.0"}
     - {name: "crypto", version: "v3.7.4"}

@@ -239,9 +239,7 @@ void APP_OTA_EvtHandler(BLE_OTAPS_Event_T *p_event)
             s_connHandle = p_event->eventField.evtUpdateReq.connHandle;
 			
             {
-                APP_OTA_HDL_SetOTAMode(APP_OTA_MODE_OTA);
                 BLE_OTAPS_UpdateResponse(s_connHandle, true, &devInfo);
-                APP_OTA_HDL_Prepare(s_connHandle);
             }            
         }
         break;
@@ -249,6 +247,8 @@ void APP_OTA_EvtHandler(BLE_OTAPS_Event_T *p_event)
         case BLE_OTAPS_EVT_START_IND:
         {
             /* TODO: implement your application code.*/
+			APP_OTA_HDL_SetOTAMode(APP_OTA_MODE_OTA);
+            APP_OTA_HDL_Prepare(s_connHandle);
             APP_OTA_HDL_Start();            
         }
         break;
