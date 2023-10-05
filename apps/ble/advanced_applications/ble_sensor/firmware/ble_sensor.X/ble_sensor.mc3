@@ -2318,8 +2318,7 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;GraphSettings canvasHeight=&quot;678&quot; canvasWidth=&quot;1077&quot; dnOrder=&quot;0&quot;/&gt;
-    &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
+    &lt;ComponentGraph dnOrder=&quot;0&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;BLE_STACK_LIB&quot; x=&quot;215&quot; y=&quot;175&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;BootloaderServices&quot; x=&quot;652&quot; y=&quot;542&quot;/&gt;
@@ -2350,6 +2349,7 @@
         &lt;ElementPosition dnOrder=&quot;26&quot; id=&quot;tc3&quot; x=&quot;43&quot; y=&quot;478&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
+    &lt;GraphSettings canvasHeight=&quot;678&quot; canvasWidth=&quot;1077&quot; dnOrder=&quot;1&quot;/&gt;
   &lt;/UserData&gt;
 &lt;/UserData&gt;
 </value>
@@ -7406,7 +7406,7 @@
       </entry>
       <entry>
          <file>..\src\app_idle_task.c</file>
-         <hash>eea2fe68d22a26afb99ee846195f68ed3b83d27cc0fd08c72beca444fde48ad1</hash>
+         <hash>fb4d465c342d78a083f829518b384ab67da981d70932edb54f68d50b39983503</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h</file>
@@ -7942,7 +7942,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\driver\pds\pds.a</file>
-         <hash>65985bd7c2c12421abed6cacf53b1a0fe7d490109651bcfc31c02c13594c7e75</hash>
+         <hash>7f7a191381f5702a8f87ec14fdceced6e97a6a7c83411aa4b21b4d62f07b884b</hash>
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\src\port\pic32\crypt_rng_u2242.c</file>
@@ -8530,7 +8530,7 @@
       </entry>
       <entry>
          <file>..\ble_sensor.X\autoload.py</file>
-         <hash>05ee3cbb18fd98e03008bf644fdbe27f6c4b38655df0349db94d7a7e2e99f290</hash>
+         <hash>ba15d34e15dd16593303f86a414764b32d6831e80fd75ed5e04b03d47f804fcd</hash>
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\port\pic32\crypt_sha256_hw.h</file>
@@ -8850,7 +8850,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\definitions.h</file>
-         <hash>94b1b0becb820bbab2f5b958b3fad643ed61e754be7d1911a0ab5c340244dda6</hash>
+         <hash>d6d8e4252c717f644120f38d18b1bc6a9ab7950bdade8a470008e07328b63336</hash>
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\compress.h</file>
@@ -9014,7 +9014,7 @@
       </entry>
       <entry>
          <file>..\src\app_ota\app_ota_handler.c</file>
-         <hash>4e39ca1010ce6a946fe9d16cf892d58e0e274b0d2e32b22b279eda6d8b9845ca</hash>
+         <hash>347698925537de359f88fe5b5b6174f73b697dbc088c946f504bacd1c818518f</hash>
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\src\ge_low_mem.c</file>
