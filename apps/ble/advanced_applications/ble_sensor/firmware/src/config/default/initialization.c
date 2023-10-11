@@ -402,6 +402,8 @@ void SYS_Initialize ( void* data )
 
     SERCOM0_USART_Initialize();
 
+    SERCOM1_I2C_Initialize();
+
     EIC_Initialize();
 
 

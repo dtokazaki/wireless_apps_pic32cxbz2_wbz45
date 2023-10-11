@@ -150,6 +150,8 @@ build/default/production/_ext/1832805299/sys_console_uart.o: \
  ../src/config/default/ble/lib/include/bt_sys.h \
  ../src/config/default/peripheral/sercom/usart/plib_sercom0_usart.h \
  ../src/config/default/peripheral/sercom/usart/plib_sercom_usart_common.h \
+ ../src/config/default/peripheral/sercom/i2c_master/plib_sercom1_i2c_master.h \
+ ../src/config/default/peripheral/sercom/i2c_master/plib_sercom_i2c_master_common.h \
  ../src/config/default/driver/pds/include/pds.h \
  ../src/config/default/driver/pds/include/pds_config.h \
  ../src/config/default/peripheral/clk/plib_clk.h \
@@ -469,6 +471,10 @@ build/default/production/_ext/1832805299/sys_console_uart.o: \
 ../src/config/default/peripheral/sercom/usart/plib_sercom0_usart.h:
 
 ../src/config/default/peripheral/sercom/usart/plib_sercom_usart_common.h:
+
+../src/config/default/peripheral/sercom/i2c_master/plib_sercom1_i2c_master.h:
+
+../src/config/default/peripheral/sercom/i2c_master/plib_sercom_i2c_master_common.h:
 
 ../src/config/default/driver/pds/include/pds.h:
 

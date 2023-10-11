@@ -68,6 +68,7 @@
 #include "system/debug/sys_debug.h"
 #include "ble/lib/include/bt_sys.h"
 #include "peripheral/sercom/usart/plib_sercom0_usart.h"
+#include "peripheral/sercom/i2c_master/plib_sercom1_i2c_master.h"
 #include "driver/pds/include/pds.h"
 #include "driver/pds/include/pds_config.h"
 #include "peripheral/clk/plib_clk.h"

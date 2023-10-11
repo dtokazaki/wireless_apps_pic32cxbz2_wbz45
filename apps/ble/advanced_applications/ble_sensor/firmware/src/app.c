@@ -124,7 +124,7 @@ static void APP_Init(void)
     APP_UpdateLocalName(0, NULL);
     APP_InitConnList();
     APP_ADV_Init();
-    
+
     SYS_CONSOLE_MESSAGE("BLE Sensor Application: Version ");
     SYS_CONSOLE_PRINT(BLE_SENSOR_VERSION);
     SYS_CONSOLE_MESSAGE("\n\r[BLE} Advertisement Started\n\r");    
